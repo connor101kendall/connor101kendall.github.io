@@ -15,25 +15,8 @@ export const homeObjOne = {
   darkText: false
 };
 
-export const homeObjTwo = {
-  id: 'discover',
-  lightBg: true,
-  lightText: false,
-  lighttextDesc: false,
-  topLine: 'Unlimited Access',
-  headline: 'Login to your account at any time',
-  description: 'Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.',
-  buttonLabel: 'Learn More',
-  imgStart: true,
-  img: '/images/svg-4.svg',
-  alt: 'Piggybanck',
-  dark: false,
-  primary: false,
-  darkText: true
-};
-
 export const homeObjThree = {
-  id: 'signup',
+  id: 'experience',
   lightBg: true,
   lightText: false,
   lighttextDesc: false,

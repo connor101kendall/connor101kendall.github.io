@@ -47,18 +47,18 @@ const Navbar = ({ toggle }) => {
               >About Me</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='discover'
+              <NavLinks to='projects'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='services'
+              <NavLinks to='experience'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Experience</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink href='mailto:connor101kendall@gmail.com?subject=Website Contact'>Email Me</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

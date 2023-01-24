@@ -13,7 +13,7 @@ export const HeroContainer = styled.div`
 `
 export const EmailLink = styled.a`
   border-radius: 50px;
-  background: #01bf71;
+  background: #902bf5;
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 16px;
@@ -55,10 +55,10 @@ export const HeroH1 = styled.h1`
   font-size: 48px;
   text-align: center;
 
-  @media screen and (max-wodth: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 40px
   }
-  @media screen and (max-wodth: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 32px
   }
 `
@@ -70,10 +70,10 @@ export const HeroP = styled.p`
   text-align: center;
   max-width: 600px;
 
-  @media screen and (max-wodth: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 24px
   }
-  @media screen and (max-wodth: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 18px
   }
 `

@@ -10,8 +10,8 @@ function Hero (){
           Have a look around and don't hesitate to send me an email to discuss any 
           opportunities!</HeroP>
         <HeroBtnWrapper>
-          <EmailLink href="mailto:connor101kendall@gmail.com?subject=Website Contact">
-            Email Me
+          <EmailLink href="images/Connor_Kendall_Resume.pdf" download="Connor_Kendall_Resume.pdf">
+            Download My Resume
           </EmailLink>
         </HeroBtnWrapper>
       </HeroContent>
