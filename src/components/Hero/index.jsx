@@ -1,23 +1,18 @@
-import React, {useState} from 'react'
-import { HeroContainer, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
-import { Button } from '../ButtonElements'
+import React from 'react'
+import { HeroContainer, HeroContent, HeroH1, HeroP, HeroBtnWrapper, EmailLink } from './HeroElements'
 
-const Hero = () => {
-  const [hover, setHover] = useState(false);
-
-  const onHover = () => {
-    setHover(!hover)
-  }
-
+function Hero (){
   return (
     <HeroContainer id='home'>
       <HeroContent>
-        <HeroH1> Virtual Banking Make Easy</HeroH1>
-        <HeroP>Sign up for a new accoun today and recive $250 in credit towards your next payment</HeroP>
+        <HeroH1> Hey, I'm Connor Kendall</HeroH1>
+        <HeroP>This site is my online portfolio created to showcase my skills. 
+          Have a look around and don't hesitate to send me an email to discuss any 
+          opportunities!</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-            Get Started {hover ? <ArrowForward /> : <ArrowRight/>}
-          </Button>
+          <EmailLink href="mailto:connor101kendall@gmail.com?subject=Website Contact">
+            Email Me
+          </EmailLink>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
