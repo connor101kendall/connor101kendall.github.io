@@ -1,29 +1,33 @@
 import React from 'react'
-import Icon1 from '../../images/svg-1.svg'
-import Icon2 from '../../images/svg-2.svg'
-import Icon3 from '../../images/svg-3.svg'
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServiceElements'
 
 const Services = () => {
   return (
     <ServicesContainer id='projects'>
-      <ServicesH1>Our services</ServicesH1>
+      <ServicesH1>My Projects!</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1}/>
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help your fess and increase your overall revenue.</ServicesP>
+          <ServicesIcon src="/images/Portrait3.jpg"/>
+          <ServicesH2>Eb Labs</ServicesH2>
+          <ServicesP>ebLabs is a a web-based application 
+            that allows users to create and interact with resources</ServicesP>
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={Icon2}/>
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>you can acess our plataform online anywhere in the world.</ServicesP>
+        <ServicesIcon src="/images/Portrait3.jpg"/>
+          <ServicesH2>Cobalt Hardware</ServicesH2>
+          <ServicesP>Cobalt Hardware is a mock hardware store website to 
+            showcase React elements and Rest API</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3}/>
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
+          <ServicesIcon src="/images/Portrait3.jpg"/>
+          <ServicesH2>ICS4U Website</ServicesH2>
+          <ServicesP>ICS4U site is a web-based application to showcase coursework</ServicesP>
         </ServicesCard>
+        {/* <ServicesCard>
+          <ServicesIcon src="/images/Portrait3.jpg"/>
+          <ServicesH2>Robobug</ServicesH2>
+          <ServicesP>Robobug is a Platformer game designed using PHP and Javascript</ServicesP>
+        </ServicesCard> */}
       </ServicesWrapper>
     </ServicesContainer>
   )
