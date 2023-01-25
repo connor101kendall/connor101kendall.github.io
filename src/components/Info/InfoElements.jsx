@@ -12,7 +12,7 @@ export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 860px;
-  width: 100%auto;
+  width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
@@ -45,7 +45,7 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 `
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #902bf5;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -81,7 +81,8 @@ export const ImgWrap = styled.div`
   height: 100%;
 `;
 export const Img = styled.img`
-  width: 100%;
+  width: 60%;
+  border-radius: 50px;
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
