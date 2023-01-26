@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer';
 import Hero from '../components/Hero'
-import About from '../components/about'
-import Experience from '../components/experience'
+import About from '../components/About'
+import Experience from '../components/Experience'
 import Navbar from '../components/Navbar'
 import Services from '../components/Services';
 import Sidebar from '../components/SideBar'

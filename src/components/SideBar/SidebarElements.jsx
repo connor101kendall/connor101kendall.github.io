@@ -64,14 +64,14 @@ export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;
 `
-export const SidebarRoute = styled(LinkR)`
+export const SidebarRoute = styled.a`
   border-radius: 50px;
   background: #902bf5;
   white-space: nowrap;
-  padding: 16px 64px;
+  padding: 10px 22px;
   color: #010606;
   font-size: 16px;
-  outline:  none;
+  outline: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;

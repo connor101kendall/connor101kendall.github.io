@@ -10,11 +10,11 @@ const Sidebar = ({isOpen,toggle}) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to='about' onClick={toggle}>About Me</SidebarLink>
-          <SidebarLink to='projects' onClick={toggle}>Projects</SidebarLink>
           <SidebarLink to='experience' onClick={toggle}>Experience</SidebarLink>
+          <SidebarLink to='projects' onClick={toggle}>Projects</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Sign in</SidebarRoute>
+        <SidebarRoute href='mailto:connor101kendall@gmail.com?subject=Website Contact'>Email Me</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

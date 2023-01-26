@@ -1,42 +1,44 @@
 import React from 'react'
-import { 
-  InfoContainer, 
-  InfoWrapper, 
-  InfoRow, 
-  Column1, 
-  Column2, 
-  TextWrapper, 
-  Heading, 
-  Subtitle, 
-  ImgWrap,
-   Img 
+
+  import { 
+    ServicesContainer, 
+    ServicesH1, 
+    ServicesWrapper, 
+    ServicesCard, 
+    ServicesIcon, 
+    ServicesH2, 
+    ServicesP
   } from './InfoElements'
 
-const Experience = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
+const Experience = () => {
   return (
-    <>
-      <InfoContainer lightBg={true} id={id}>
-        <InfoWrapper>
-          <InfoRow imgStart={true}>
-            <Column1>
-              <TextWrapper>
-                <Heading lightText={false}>Who am I?</Heading>
-                <Subtitle darkText={true}>I'm a Developer, Designer, and Student currently studying
-                Biomedical Engineering at the University of Waterloo. <br /><br />I am familar with Modern Web 
-                development using React.js and incorporating human factors in the UI/UX experience.<br /><br /> 
-                I am super passionate about using design to improve the BioTech and Healthcare fields.
-                Every chance I get I try to be the change I'd like to see in the world.</Subtitle>
-              </TextWrapper>
-            </Column1>
-            <Column2>
-              <ImgWrap>
-                <Img src={img} alt={alt}/>
-              </ImgWrap>
-            </Column2>
-          </InfoRow>
-        </InfoWrapper>
-      </InfoContainer>
-    </>
+    <ServicesContainer id='experience'>
+    <ServicesH1>My Projects!</ServicesH1>
+    <ServicesWrapper>
+      <ServicesCard>
+        <ServicesIcon src="/images/Portrait3.jpg"/>
+        <ServicesH2>Eb Labs</ServicesH2>
+        <ServicesP>ebLabs is a a web-based application 
+          that allows users to create and interact with resources</ServicesP>
+      </ServicesCard>
+      <ServicesCard>
+      <ServicesIcon src="/images/Portrait3.jpg"/>
+        <ServicesH2>Cobalt Hardware</ServicesH2>
+        <ServicesP>Cobalt Hardware is a mock hardware store website to 
+          showcase React elements and Rest API</ServicesP>
+      </ServicesCard>
+      <ServicesCard>
+        <ServicesIcon src="/images/Portrait3.jpg"/>
+        <ServicesH2>ICS4U Website</ServicesH2>
+        <ServicesP>ICS4U site is a web-based application to showcase coursework</ServicesP>
+      </ServicesCard>
+      {/* <ServicesCard>
+        <ServicesIcon src="/images/Portrait3.jpg"/>
+        <ServicesH2>Robobug</ServicesH2>
+        <ServicesP>Robobug is a Platformer game designed using PHP and Javascript</ServicesP>
+      </ServicesCard> */}
+    </ServicesWrapper>
+  </ServicesContainer>
   )
 }
 
