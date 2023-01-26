@@ -13,7 +13,7 @@ import React from 'react'
 const Experience = () => {
   return (
     <ServicesContainer id='experience'>
-    <ServicesH1>My Projects!</ServicesH1>
+    <ServicesH1>Experience</ServicesH1>
     <ServicesWrapper>
       <ServicesCard>
         <ServicesIcon src="/images/Portrait3.jpg"/>
