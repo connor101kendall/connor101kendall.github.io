@@ -1,44 +1,73 @@
 import React from 'react'
-
+import { 
+  FaJsSquare,
+  FaMicroscope,
+  FaPencilRuler,
+ } from 'react-icons/fa'
   import { 
-    ServicesContainer, 
-    ServicesH1, 
-    ServicesWrapper, 
-    ServicesCard, 
-    ServicesIcon, 
-    ServicesH2, 
-    ServicesP
-  } from './InfoElements'
+    Container, 
+    H1, 
+    Wrapper, 
+    Card, 
+    Icon, 
+    H2, 
+    H3,
+    List,
+    ListItem
+  } from './ExperienceElements'
 
 const Experience = () => {
   return (
-    <ServicesContainer id='experience'>
-    <ServicesH1>Experience</ServicesH1>
-    <ServicesWrapper>
-      <ServicesCard>
-        <ServicesIcon src="/images/Portrait3.jpg"/>
-        <ServicesH2>Eb Labs</ServicesH2>
-        <ServicesP>ebLabs is a a web-based application 
-          that allows users to create and interact with resources</ServicesP>
-      </ServicesCard>
-      <ServicesCard>
-      <ServicesIcon src="/images/Portrait3.jpg"/>
-        <ServicesH2>Cobalt Hardware</ServicesH2>
-        <ServicesP>Cobalt Hardware is a mock hardware store website to 
-          showcase React elements and Rest API</ServicesP>
-      </ServicesCard>
-      <ServicesCard>
-        <ServicesIcon src="/images/Portrait3.jpg"/>
-        <ServicesH2>ICS4U Website</ServicesH2>
-        <ServicesP>ICS4U site is a web-based application to showcase coursework</ServicesP>
-      </ServicesCard>
-      {/* <ServicesCard>
-        <ServicesIcon src="/images/Portrait3.jpg"/>
-        <ServicesH2>Robobug</ServicesH2>
-        <ServicesP>Robobug is a Platformer game designed using PHP and Javascript</ServicesP>
-      </ServicesCard> */}
-    </ServicesWrapper>
-  </ServicesContainer>
+    <Container id='experience'>
+    <H1>Experience</H1>
+    <Wrapper>
+      <Card>
+        <Icon><FaPencilRuler /></Icon>
+        <H2>Designer</H2>
+        <H3>Interests:</H3>
+        <List>
+          <ListItem>UX/UI</ListItem>
+          <ListItem>3D Modelling</ListItem>
+          <ListItem>Finate Element Analysis</ListItem>
+        </List>
+        <br />
+        <H3>Tools:</H3>
+        <List>
+          <ListItem>Onshape</ListItem>
+          <ListItem>SolidWorks</ListItem>
+          <ListItem>Figma</ListItem>
+        </List>
+      </Card>
+      <Card>
+      <Icon><FaJsSquare /></Icon>
+        <H2>Developer</H2>
+        <H3>Tools:</H3>
+        <List>
+          <ListItem>React.js</ListItem>
+          <ListItem>Bootstrap</ListItem>
+          <ListItem>HTML/CSS</ListItem>
+          <ListItem>PHP</ListItem>
+          <ListItem>MySQL</ListItem>
+          <ListItem>C#</ListItem>
+          <ListItem>C++</ListItem>
+        </List>
+      </Card>
+      <Card>
+      <Icon><FaMicroscope /></Icon>
+        <H2>Student</H2>
+        <H3>Coursework:</H3>
+        <List>
+          <ListItem>Human Factors</ListItem>
+          <ListItem>Data Structures and Algorithms</ListItem>
+          <ListItem>Task Analysis</ListItem>
+          <ListItem>Statics Analysis</ListItem>
+          <ListItem>Matrices and Linear Systems</ListItem>
+          <ListItem>Deformable Solids Analysis</ListItem>
+          <ListItem>Differential Equations</ListItem>
+        </List>
+      </Card>
+    </Wrapper>
+  </Container>
   )
 }
 
