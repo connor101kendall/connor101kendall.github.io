@@ -86,14 +86,20 @@ export const H1 = styled.h1`
     font-size: 2rem;
   }  
 `
-export const H2 = styled.h1`
+export const H2 = styled.a`
   font-size: 1.5rem;
   color: #000;
+  font-weight: bold;
   margin-bottom: 30px;
+  text-decoration: none;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }  
+
+  &:hover {
+    color: #490e85;
+  }
 `
 export const H3 = styled.h1`
   font-size: 1rem;
@@ -103,5 +109,6 @@ export const H3 = styled.h1`
     font-size: 2rem;
   }  
 `
+
 
 
