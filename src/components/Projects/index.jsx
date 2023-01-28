@@ -7,7 +7,6 @@ import {
   Wrapper,
   Card,
   Icon,
-  Link,
 } from './ProjectElements'
 
 
